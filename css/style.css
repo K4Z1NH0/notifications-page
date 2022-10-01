@@ -19,15 +19,19 @@
 }
 
 body{
+    padding: 50px;
     justify-content: center;
     display: flex;
     align-items: center;
-    background-color: black;
+    background-color: var(--bg-color);
     font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
-.container{
-    margin-top: 80px;
+.container{ 
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
     width: 700px;
     background-color: var(--color-branco);
 }
