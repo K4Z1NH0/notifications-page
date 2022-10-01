@@ -61,17 +61,15 @@ section div{
 }
 
 section div label{
+    z-index: 1;
     font-family: 'Plus Jakarta Sans', sans-serif;
     border: none;
     color: var(--color-azul-cinza);
     font-size: 16px;
 }
 
-section div label{
-    cursor: pointer;
-}
-
 section div label:hover{
+    cursor: pointer;
     color: var(--color-azul-claro);
 }
 
