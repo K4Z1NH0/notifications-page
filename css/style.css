@@ -94,7 +94,7 @@ main .mark{
 }
 
 
-main .angela, main .jacob, main .rizky, main .kimberly{
+main .angela, main .jacob, main .rizky, main .kimberly, main .nathan, main .anna{
     border-radius: 10px;
     width: 620px;
     padding: 15px;
@@ -113,6 +113,10 @@ main .kimberly{
 
 main .kimberly h2{
     width: 100%;
+}
+
+main .kimberly .kimberly-img:hover{
+    cursor: pointer;
 }
 
 
