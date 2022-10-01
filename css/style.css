@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500&display=swap');
+
+/* Variaveis no css */
+:root{
+    --bg-color: hsl(210, 60%, 98%);
+    --bg-color-2: hsl(205, 33%, 90%);
+    --color-branco:hsl(0, 0%, 100%);
+    --color-azul-cinza: hsl(219, 14%, 63%);
+    --color-azul-cinza-escuro: hsl(219, 12%, 42%);
+    --color-azul-escuro:hsl(219, 85%, 26%);
+    --color-azul-claro: hsl(219, 79%, 53%);
+    --color-vermelho: hsl(1, 90%, 64%);
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: black;
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.container{
+    margin-top: 80px;
+    width: 700px;
+    background-color: var(--color-branco);
+}
+
+section{
+    margin-top: 20px;
+    margin-left: 20px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+section h2{
+    margin-left: 10px;
+    border-radius: 5px;
+    color: var(--color-branco);
+    text-align: center;
+    width: 70px;
+    background-color: var(--color-azul-escuro);
+}
+
+section div{
+    margin-right: 20px;
+    display: flex;
+    justify-content: end;
+    width: 100%;
+}
+
+section div label{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    border: none;
+    color: var(--color-azul-cinza);
+    font-size: 16px;
+}
+
+section div label{
+    cursor: pointer;
+}
+
+section div label:hover{
+    color: var(--color-azul-claro);
+}
+
+main{
+    padding: 25px;
+    margin-top: -40px;
+}
+
+main .mark, main .angela, main .jacob{
+    background-color: var(--bg-color);
+}
+
+main .mark{
+    border-radius: 10px;
+    width: 620px;
+    padding: 15px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+
+main .angela, main .jacob, main .rizky, main .kimberly{
+    border-radius: 10px;
+    width: 620px;
+    padding: 15px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+main img{
+    width: 50px;
+    height: 50px;
+}
+
+main .kimberly{
+    justify-content: space-around;
+}
+
+main .kimberly h2{
+    width: 100%;
+}
+
+
+main .name:hover{
+    color: var(--color-azul-escuro);
+    cursor: pointer;
+}
+
+main h2{
+    font-weight: 800;
+    margin-left: 20px;
+    font-size: 1em;
+}
+
+.notification-text{
+    font-weight: 500;
+    margin-left: 5px;
+    color: var(--color-azul-cinza);
+    font-size: 1em;
+}
+
+.text-azul{
+    font-weight:800;
+    margin-left: 3px;
+    color: var(--color-azul-cinza-escuro);
+}
+
+.time{
+    opacity: 50%;
+    color: var(--color-azul-cinza-escuro);
+}
+
+.text-club{
+    font-weight:800;
+    margin-left: 3px;
+    color: var(--color-azul-escuro);
+}
+
+.text-club:hover{
+    cursor: pointer;
+}
+
+.text-azul:hover{
+    cursor: pointer;
+    color: var(--color-azul-escuro);
+}
+
+.ball-red{
+    margin-top: 8px;
+    margin-left: 10px;
+    width: 0.5em;
+    height: 0.5em;
+    background-color: var(--color-vermelho);
+    border-radius: 100%;
+}
+
+.message{  
+    margin-left: 80px; 
+    padding: 10px 0px;
+    width: 555px;
+    color: var(--color-azul-cinza-escuro);
+    border: 1px solid var(--color-azul-cinza);
+}
+
+.message:hover{   
+    background-color: var(--bg-color-2);
+    cursor: pointer;
+    border: 1px solid var(--bg-color-2);
+    border-radius: 5px;
+}
