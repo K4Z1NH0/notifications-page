@@ -32,7 +32,6 @@ body{
     justify-content: center;
     display: flex;
     flex-direction: column;
-    width: 700px;
     background-color: var(--color-branco);
 }
 
@@ -163,8 +162,6 @@ main h2{
 }
 
 .ball-red{
-    margin-top: 8px;
-    margin-left: 10px;
     width: 0.5em;
     height: 0.5em;
     background-color: var(--color-vermelho);
@@ -184,4 +181,210 @@ main h2{
     cursor: pointer;
     border: 1px solid var(--bg-color-2);
     border-radius: 5px;
+}
+
+/* medias querys */
+@media (max-width: 350px){
+    .container{
+        width: 300px;
+    }
+
+    section h1{
+        font-size: 0.6em;
+    }
+
+    section h2{
+        font-size: 0.6em;
+        width: 25px;
+        border-radius: 3px;
+    }
+
+    section div label{
+        font-size: 0.6em;
+    }
+
+    main{
+        padding: 15px;
+        margin-top: -40px;
+    }
+    
+    main img{
+        width: 30px;
+        height: 30px;
+    }
+
+    main .mark{
+        border-radius: 3px;
+        width: 250px;
+        padding: 15px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        font-size: 0.6em;
+    }
+    
+    
+    main .angela, main .jacob, main .rizky, main .kimberly, main .nathan, main .anna{
+        border-radius: 3px;
+        width: 250px;
+        padding: 15px;
+        margin-bottom: 10px;
+        font-size: 0.6em;
+    }
+    
+
+    .message{  
+        margin-top: -20px;
+        font-size: 0.6em;
+        margin-left: 60px; 
+        padding: 5px 0px;
+        width: 170px;
+        margin-bottom: 15px;
+    }
+
+    .message h2{
+        margin: 5px;
+    }
+    
+}
+
+@media (min-width: 375px){
+    .container{
+        width: 300px;
+    }
+
+    section h1{
+        font-size: 0.6em;
+    }
+
+    section h2{
+        font-size: 0.6em;
+        width: 25px;
+        border-radius: 3px;
+    }
+
+    section div label{
+        font-size: 0.6em;
+    }
+
+    main{
+        padding: 15px;
+        margin-top: -40px;
+    }
+    
+    main img{
+        width: 30px;
+        height: 30px;
+    }
+
+    main .mark{
+        border-radius: 3px;
+        width: 250px;
+        padding: 15px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        font-size: 0.6em;
+    }
+
+    main .mark h2, main .angela h2, main .jacob h2, main .rizky h2, main .kimberly h2, main .nathan h2, main .anna h2{
+        width: 180px;
+    }
+    
+    
+    main .angela, main .jacob, main .rizky, main .kimberly, main .nathan, main .anna{
+        border-radius: 3px;
+        width: 250px;
+        padding: 15px;
+        margin-bottom: 10px;
+        font-size: 0.6em;
+    }
+
+    .ball-red{
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 0.5em;
+        height: 0.5em;
+        background-color: var(--color-vermelho);
+        border-radius: 100%;
+    }
+
+    .message{  
+        margin-top: -20px;
+        font-size: 0.6em;
+        margin-left: 60px; 
+        padding: 5px 0px;
+        width: 170px;
+        margin-bottom: 15px;
+    }
+
+    .message h2{
+        margin: 5px;
+    }
+    
+}
+
+@media (min-width: 425px){
+    .container{
+        width: 500px;
+    }
+
+    section h1{
+        font-size: 0.8em;
+    }
+
+    section h2{
+        font-size: 0.8em;
+        width: 50px;
+        border-radius: 3px;
+    }
+
+    section div label{
+        font-size: 0.8em;
+    }
+    
+    main img{
+        width: 40px;
+        height: 40px;
+    }
+
+    main .mark{
+        border-radius: 5px;
+        width: 300px;
+        padding: 15px;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        font-size: 0.7em;
+    }
+
+    main .mark h2, main .angela h2, main .jacob h2, main .rizky h2, main .kimberly h2, main .nathan h2, main .anna h2{
+        width: 200px;
+    }
+    
+    main .angela, main .jacob, main .rizky, main .kimberly, main .nathan, main .anna{
+        border-radius: 5px;
+        width: 300px;
+        padding: 15px;
+        margin-bottom: 10px;
+        font-size: 0.7em;
+    }
+
+    .ball-red{
+        margin-top: 5px;
+        margin-left: 5px;
+        width: 0.5em;
+        height: 0.5em;
+        border-radius: 100%;
+    }
+
+    .message{  
+        margin-top: -20px;
+        font-size: 0.7em;
+        margin-left: 70px; 
+        padding: 5px 0px;
+        width: 240px;
+        margin-bottom: 15px;
+    }
+
+    .message h2{
+        margin: 7px;
+    }
 }
