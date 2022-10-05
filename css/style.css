@@ -59,6 +59,10 @@ section div{
     width: 100%;
 }
 
+section input{
+    display: none;
+}
+
 section div label{
     z-index: 1;
     font-family: 'Plus Jakarta Sans', sans-serif;
@@ -162,6 +166,7 @@ main h2{
 }
 
 .ball-red{
+    display: flex;
     width: 0.5em;
     height: 0.5em;
     background-color: var(--color-vermelho);
@@ -234,7 +239,7 @@ main h2{
         margin-bottom: 10px;
         font-size: 0.6em;
     }
-    
+
 
     .message{  
         margin-top: -20px;

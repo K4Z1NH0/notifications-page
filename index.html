@@ -16,27 +16,27 @@
     <div class="container">
       <section class="notifications">
         <h1>Notifications</h1>
-        <h2>3</h2>
+        <h2 id="n-notification">3</h2>
         <div>
-        <label>Mark all as read
-          <input id="muda" type="checkbox" placeholder="Mask all as read">
+        <label for="muda">Mark all as read
+          <input id="muda" onclick="muda()" type="checkbox">
         </label>
         </div>
       </section>
       <main>
         <div class="mark">
           <img src="./assets/images/avatar-mark-webber.webp">
-          <h2><span class="name">Mark Webber</span><span class="notification-text"> reacted to your recent post <span class="text-azul"> My first tournament today!</span><div class="ball-red"></div>
+          <h2><span class="name">Mark Webber</span><span class="notification-text"> reacted to your recent post <span class="text-azul"> My first tournament today!</span><span id="ball-red-mark" class="ball-red"></span>
           <br><span class="time">1m ago</span></span></h2>
         </div>
         <div class="angela">
           <img src="./assets/images/avatar-angela-gray.webp">
-          <h2><span class="name">Angela Gray</span><span class="notification-text"> followed you <div class="ball-red"></div>
+          <h2><span class="name">Angela Gray</span><span class="notification-text"> followed you <span id="ball-red-angela" class="ball-red"></span>
           <br><span class="time">5m ago</span></span></h2>
         </div>
         <div class="jacob">
           <img src="./assets/images/avatar-jacob-thompson.webp">
-          <h2><span class="name">Jacob Thompson</span><span class="notification-text"> has joined your group <span class="text-club"> Chess Club</span><div class="ball-red"></div>
+          <h2><span class="name">Jacob Thompson</span><span class="notification-text"> has joined your group <span class="text-club"> Chess Club</span><span id="ball-red-jacob" class="ball-red"></span>
           <br><span class="time">1 day ago</span></span></h2>
         </div>
         <div class="rizky">
@@ -64,5 +64,6 @@
         </div>
       </main>
     </div>
+    <script type="text/javascript" src="./js/script.js"></script>
 </body>
 </html>
