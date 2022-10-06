@@ -127,12 +127,14 @@ main .name:hover{
 }
 
 main h2{
+    display: inline-block;
     font-weight: 800;
     margin-left: 20px;
     font-size: 1em;
 }
 
 .notification-text{
+
     font-weight: 500;
     margin-left: 5px;
     color: var(--color-azul-cinza);
@@ -140,6 +142,7 @@ main h2{
 }
 
 .text-azul{
+    width: 50%;
     font-weight:800;
     margin-left: 3px;
     color: var(--color-azul-cinza-escuro);
@@ -151,6 +154,7 @@ main h2{
 }
 
 .text-club{
+    width: 50%;
     font-weight:800;
     margin-left: 3px;
     color: var(--color-azul-escuro);
@@ -166,7 +170,9 @@ main h2{
 }
 
 .ball-red{
-    display: flex;
+    margin-bottom: 1px;
+    margin-left: 3px;
+    display: inline-block;
     width: 0.5em;
     height: 0.5em;
     background-color: var(--color-vermelho);
@@ -188,12 +194,9 @@ main h2{
     border-radius: 5px;
 }
 
-#muda:checked + .ball-red {
-    display: none;
-  }
-
 /* medias querys */
 @media (max-width: 350px){
+
     .container{
         width: 300px;
     }
@@ -213,7 +216,7 @@ main h2{
     }
 
     main{
-        padding: 15px;
+        padding: 10px;
         margin-top: -40px;
     }
     
@@ -276,7 +279,7 @@ main h2{
     }
 
     main{
-        padding: 15px;
+        padding: 10px;
         margin-top: -40px;
     }
     
@@ -307,15 +310,13 @@ main h2{
         font-size: 0.6em;
     }
 
-    .ball-red{
-        margin-top: 5px;
-        margin-left: 5px;
+    /* .ball-red{
+        margin: 0px;
         width: 0.5em;
         height: 0.5em;
-        background-color: var(--color-vermelho);
         border-radius: 100%;
-    }
-
+    } */
+    
     .message{  
         margin-top: -20px;
         font-size: 0.6em;
@@ -376,13 +377,11 @@ main h2{
         font-size: 0.7em;
     }
 
-    .ball-red{
-        margin-top: 5px;
-        margin-left: 5px;
+    /* .ball-red{
         width: 0.5em;
         height: 0.5em;
         border-radius: 100%;
-    }
+    } */
 
     .message{  
         margin-top: -20px;
@@ -417,6 +416,11 @@ main h2{
         font-size: 1em;
     }
     
+    main{
+        padding: 20px;
+        margin-top: -40px;
+    }
+
     main img{
         width: 50px;
         height: 50px;
@@ -443,13 +447,11 @@ main h2{
         font-size: 1em;
     }
 
-    .ball-red{
-        margin-top: 5px;
-        margin-left: 5px;
+    /* .ball-red{
         width: 0.5em;
         height: 0.5em;
         border-radius: 100%;
-    }
+    } */
 
     .message{  
         margin-top: -20px;
